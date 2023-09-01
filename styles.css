@@ -4,6 +4,10 @@
      box-sizing: border-box;
  }
 
+ html {
+     scroll-behavior: smooth;
+ }
+
  body {
      font-family: "Montserrat", sans-serif;
      background-color: #fff;
@@ -77,6 +81,11 @@
 
  .support a:hover {
      transform: scale(1.1);
+ }
+
+ .toggle {
+     position: relative;
+     right: 20px;
  }
 
  .home {
@@ -259,3 +268,23 @@
      color: #28c6e2;
      margin-top: -10px;
  }
+ @media (min-width: 320px)  and (max-width: 480px) {
+    .navbar-btn {
+        height: 35px;
+        width: 70px;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features-container {
+        
+        flex-direction: column;
+        
+    }
+    .heading{
+        font-size: 50px;
+    }
+}
