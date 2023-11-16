@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
  * {
      box-sizing: border-box;
@@ -134,16 +134,33 @@
 
  .github {
      font-size: 40px;
-     height: 110px;
-     width: 400px;
+     height: 100px;
+     width: 300px;
      margin-top: 100px;
-     color: rgb(94, 161, 94);
-     background-color: #313131;
+     color: rgba(94, 255, 228, 0.685);
+     background-color: #454748;
      display: flex;
      align-items: center;
      justify-content: center;
      border-radius: 10px;
-     box-shadow: 0 0 10px #b7eba7
+     margin-left: 20px;
+     box-shadow: 0 0 10px #c5faff
+ }
+
+ .available {
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 25px;
+     margin-top: 70px;
+     margin-bottom: -40px;
+     color: #3c90a2;
+ }
+
+ .available-on {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
  }
 
  .navbar-btn {
@@ -153,7 +170,7 @@
      border-radius: 20px;
      margin-left: 8px;
      border: none;
-     box-shadow: 0 0 10px #b7eba7
+     box-shadow: 0 0 10px #b8f7fc
  }
 
  .navbar-btn:hover {
@@ -263,6 +280,9 @@
      justify-content: center;
      margin-top: -15px;
  }
+ a:hover {
+    color: #9febdf;
+  }
 
  .madewith {
      text-align: center;
