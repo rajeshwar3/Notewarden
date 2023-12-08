@@ -153,7 +153,7 @@
      font-size: 25px;
      margin-top: 70px;
      margin-bottom: -40px;
-     color: #3c90a2;
+     color: #4fa4b7;
  }
 
  .available-on {
@@ -280,14 +280,21 @@
      justify-content: center;
      margin-top: -15px;
  }
+
  a:hover {
-    color: #9febdf;
-  }
+     color: #9febdf;
+ }
 
  .madewith {
      text-align: center;
      color: #28c6e2;
      margin-top: -10px;
+ }
+
+ p {
+     font-size: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #1b92aa;
  }
 
  @media (min-width: 320px) and (max-width: 480px) {
@@ -329,5 +336,9 @@
 
      .screenshots {
          margin-left: 40px;
+     }
+
+     .available-on {
+         flex-direction: column;
      }
  }
